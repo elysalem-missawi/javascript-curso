@@ -1,0 +1,10 @@
+let texto = "Soy Texto";
+let numero = 1200 ;
+let verdad = true ;
+let esNo = null;
+let sinvalor ;
+console.log(texto);
+console.log(numero);
+console.log(verdad);
+console.log(sinvalor);
+console.log(esNo);
