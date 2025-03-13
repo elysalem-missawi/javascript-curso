@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        ///// Imprimir números del 1 al 10:///////
+        // for (let i = 0; i <= 10; i++) {
+        // console.log(i)
+        // }
+        
+        /// ///Imprimir números pares del 2 al 20/////////
+        for (let i = 0; i <= 20 ; i+=2 ) {
+            console.log(i);
+        }
+        // la tabla de multiplicar del 5///////
+        // for (let i = 1; i <= 10; i++) {
+
+        //     console.log(" 5 * " + i +" = "+ i*5)
+
+        // }
+        // . Calcular la suma de los números del 1 al 100:
+        // Calcular la suma de los números del 1 al 100:
+        // let suma = 0;
+        // for (let i = 1; i <= 10; i++) {
+        //     suma += i;
+        // }
+        // console.log("La suma es: " + suma);
+
+        //////////////Bucle while: Imprimir números del 1 al 5: ///////////////////
+        // let i = 1;
+        // while (i <= 5) {
+        //     console.log(i);
+        //     i++;
+        // }
+
+        ////////// Bucle do...while: Pedir al usuario un número positivo:///////////
+        //         let numero;
+        //         do {
+        //             numero = parseInt(prompt("Introduce un número positivo:"));
+        //         } while (numero <= 0);
+        //         console.log("¡Gracias! Has introducido: " + numero);
+
+
+        //  ///sumar los numeros del 1 a 30
+        // y = 0
+        // for (let i = 0; i <= 30; i++) {
+        //     y += i
+
+        // }
+        // console.log(y);
+
+        ////////// Función ///////
+        //////  Función para saludar ////////
+        // function saludar(nombre) {
+        //     console.log("Hola, " + nombre + "!");
+        // }
+
+        // saludar("Juan"); // Imprime "Hola, Juan!"
+        // saludar("María"); // Imprime "Hola, María!"
+
+
+        //// Función para sumar dos números:
+        /* function sumar(a, b) {
+            return a + b;
+        }
+
+        let resultado = sumar(5, 3);
+        console.log(resultado); // Imprime 8
+ */
+        // ////////Función para calcular el área de un rectángulo:  ///////
+        // function calcularAreaRectangulo(base, altura) {
+        //     return base * altura;
+        // }
+
+        // let area = calcularAreaRectangulo(10, 5);
+        // console.log("El área del rectángulo es: " + area); // Imprime "El área del rectángulo es: 50"
+
+
+        // ///////////  Función para verificar si un número es par ////////////
+        // function esPar(numero) {
+        //     if (numero % 2 === 0) {
+        //         return true;
+        //     } else {
+        //         return false;
+        //     }
+        // }
+
+        // console.log(esPar(4)); // Imprime true
+        // console.log(esPar(7)); // Imprime false
+
+        /////////// Función para invertir una cadena ///////////////
+        // function invertirCadena(cadena) {
+        //     return cadena.split("").reverse().join("");
+        // }
+
+        // let cadenaInvertida = invertirCadena("Hola");
+        // console.log(cadenaInvertida); // Imprime "aloH"
+
+
+        //////////// ////////////
+        // function calcularFactorial(numero) {
+        //     if (numero === 0) {
+        //         return 1;
+        //     } else {
+        //         return numero * calcularFactorial(numero - 1);
+        //     }
+        // }
+
+        // let factorial = calcularFactorial(5);
+        // console.log("El factorial de 5 es: " + factorial); // Imprime "El factorial de 5 es: 120"
+
+        /////////////  Función para convertir grados Celsius a Fahrenheit:   /////////////
+        // function celsiusAFahrenheit(celsius) {
+        //     return (celsius * 9 / 5) + 32;
+        // }
+
+        // let fahrenheit = celsiusAFahrenheit(25);
+        // console.log("25 grados Celsius son " + fahrenheit + " grados Fahrenheit");
+
+
+
+        ///////////////// Tipos de datos/////////////////////
+
+        //  1. Números
+        // Crea una variable edad y asígnale tu edad.
+        // Crea una variable pi y asígnale el valor de π (3.14159).
+        // Calcula el área de un círculo con radio 5 usando la variable pi.
+        // Verifica si un número es entero usando Number.isInteger().
+
+        // let edad = 30;
+        // let pi = 3.14159;
+        // let radio = 5;
+        // let areaCirculo = Fpi * radio * radio;
+
+        // console.log("Mi edad es: " + edad);
+        // console.log("El área del círculo es: " + areaCirculo);
+        // console.log("¿Pi es un entero? " + Number.isInteger(pi)); F
+
+
+        ////////////////  Cadenas de texto (String): ///////////////////
+        // Ejercicio:
+        // Crea una variable nombre con tu nombre.
+        // Crea una variable apellido con tu apellido.
+        // Concatena las variables nombre y apellido para formar tu nombre completo.
+        // Obtén la longitud de tu nombre completo usando.length.
+        // Extrae la primera letra de tu nombre.
+        // Transforma tu nombre a mayúsculas y luego a minúsculas.
+
+        // let nombre = "Juan";
+        // let apellido = "Pérez";
+        // let nombreCompleto = nombre + " " + apellido;
+
+        // console.log("Nombre completo: " + nombreCompleto);
+        // console.log("Longitud del nombre: " + nombreCompleto.length);
+        // console.log("primera letra del nombre: " + nombre.charAt(0));
+        // console.log("Nombre en mayúsculas: " + nombreCompleto.toUpperCase());
+        // console.log("Nombre en minúsculas: " + nombreCompleto.toLowerCase()); F
+
+
+
+        /////////////////   Booleanos (Boolean) ////////////////////
+        //         Ejercicio:
+        // Crea una variable esMayorDeEdad y asígnale true si eres mayor de edad, false si no.
+        // Crea una variable esDiaSoleado y asígnale true o false según el clima.
+        // Usa operadores lógicos (&&, ||, !) para crear expresiones booleanas.
+        // Crea un condicional "if" que dependiendo del valor de "esMayorDeEdad" imprima un mensaje u otro.
+
+
+
+        /////////////////   ////////////////////
+        /////////////////   ////////////////////
+        /////////////////   ////////////////////
+
+
+    </script>
+    F
+</body>
+
+</html>
