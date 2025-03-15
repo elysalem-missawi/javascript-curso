@@ -1,108 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .cont {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2em;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .cont {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2em;
+    }
+  </style>
 </head>
 
 <body>
-    <h1>bucles</h1>
+  <h1>bucles</h1>
 
-    <div class="cont">
-        <div>
-            <h2>1. Bucle for</h2>
-            <p>Este bucle es como un contador. Te permite repetir un bloque de código un número específico de veces.</p>
-            <p>for (let i = 1; i <= 5; i++) {
-                console.log(i);
-              }</p>
-        </div>
-        <div>
-            <h2>2. Bucle while</h2>
-            <p>Este bucle repite un bloque de código mientras una condición sea verdadera</p>
-            <p>let numero = 0;
-                while (numero <= 10) {
-                  numero = parseInt(prompt("Introduce un número mayor que 10:"));
-                }
-                console.log("¡Número válido!");</p>
-        </div>
-        <div>
-            <h2>3. Bucle for...of</h2>
-            <p>Este  <p>"<p>"</p>"
-            </p>bucle se utiliza para iterar sobre los valores de un objeto iterable, como un array.</p>
-            <p>const nombres = ["Ana", "Juan", "María"];
-                for (const nombre of nombres) {
-                  console.log(nombre);
-                }</p>
-        </div>
+  <div class="cont">
+    <div>
+      <h2>1. Bucle for</h2>
+      <p>Este bucle es como un contador. Te permite repetir un bloque de código un número específico de veces.</p>
+      <p>for (let i = 1; i <= 5; i++) { console.log(i); }</p>
     </div>
-    <script>// 1 Bucles for:
-        // Crea un programa que utilice un bucle for para imprimir los números del 1 al 10
-        
-        /* for (let i = 1; i <= 11; i++) {
-         console.log(i);
-         }
-         */
-        //  2. Crea un programa que pida un número al usuario e imprima la tabla de multiplicar de ese número (del 1 al 10) usando un bucle while
-        /* let multi = 1
-        let numero =parseInt(prompt("Por favor, ingresa un número entero:"));
-        while (multi <= 10) {
-         console.log(multi*numero);
-         multi++;
-        } */
-        // 3. Crea un programa que utilice un bucle do-while para imprimir los números del 5 al 15.
-        
-         /* number = 5;
-         do {
-            console.log(number++)
-         }
-         while(number <= 15){
-            console.log(number++);
-         } */
-        /* let num=5
-        do{
-            console.log(num)
-            num = num +1
-        }while(num >= 15) */
-          /*   let numero = 5;
-        
-            do {
-              console.log(numero);
-              numero++;
-            } while (numero <= 15); */
-            // 4. Crea un programa que utilice un bucle for para sumar los números del 1 al 50 y muestre el resultado 
-            let suma = 0; // Inicializamos la variable suma en 0
-        
-            for (let i = 1; i <= 50; i++) {
-              suma += i; // Sumamos el valor actual de i a la variable suma
-            }
-            
-            console.log("La suma de los números del 1 al 50 es:", suma);  
-            // 5. Crea un programa que pida al usuario un número y luego imprima los primeros n números pares usando un bucle while
-          /*   const n = parseInt(prompt("Introduce un número entero positivo:"));
-        
-        if (isNaN(n) || n <= 0) {
-          console.log("Por favor, introduce un número entero positivo válido.");
-        } else {
-          let contador = 0;
-          let numeroPar = 2; // El primer número par es 2
-        
-          console.log(`Los primeros ${n} números pares son:`);
-        
-          while (contador < n) {
-            console.log(numeroPar);
-            numeroPar += 2; // Incrementamos en 2 para obtener el siguiente número par
-            contador++;
-          }
-        } */</script>
+    <div>
+      <h2>2. Bucle while</h2>
+      <p>Este bucle repite un bloque de código mientras una condición sea verdadera</p>
+      <p>let numero = 0;
+        while (numero <= 10) { numero=parseInt(prompt("Introduce un número mayor que 10:")); } console.log("¡Número
+          válido!");</p>
+    </div>
+    <div>
+      <h2>3. Bucle for...of</h2>
+      <p>Este bucle se utiliza para iterar sobre los valores de un objeto iterable, como un array.</p>
+      <p>const nombres = ["Ana", "Juan", "María"];
+        for (const nombre of nombres) {
+        console.log(nombre);
+        }
+      </p>
+    </div>
+  </div>
+  <script>
+  // 1 Bucles for:
+    // Crea un programa que utilice un bucle for para imprimir los números del 1 al 10
+
+    /* for (let i = 1; i <= 11; i++) {
+     console.log(i);
+     }
+     */
+    //  2. Crea un programa que pida un número al usuario e imprima la tabla de multiplicar de ese número (del 1 al 10) usando un bucle while
+    /* let multi = 1
+    let numero =parseInt(prompt("Por favor, ingresa un número entero:"));
+    while (multi <= 10) {
+     console.log(multi*numero);
+     multi++;
+    } */
+    // 3. Crea un programa que utilice un bucle do-while para imprimir los números del 5 al 15.
+
+    /* number = 5;
+    do {
+       console.log(number++)
+    }
+    while(number <= 15){
+       console.log(number++);
+    } */
+    /* let num=5
+    do{
+        console.log(num)
+        num = num +1
+    }while(num >= 15) */
+    /*   let numero = 5;
+  
+      do {
+        console.log(numero);
+        numero++;
+      } while (numero <= 15); */
+    // 4. Crea un programa que utilice un bucle for para sumar los números del 1 al 50 y muestre el resultado 
+    // let suma = 0; // Inicializamos la variable suma en 0
+
+    // for (let i = 1; i <= 50; i++) {
+    // suma += i; // Sumamos el valor actual de i a la variable suma
+    // }
+
+    // console.log("La suma de los números del 1 al 50 es:", suma);  
+    // 5. Crea un programa que pida al usuario un número y luego imprima los primeros n números pares usando un bucle while
+    /*   const n = parseInt(prompt("Introduce un número entero positivo:"));
+  
+  if (isNaN(n) || n <= 0) {
+    console.log("Por favor, introduce un número entero positivo válido.");
+  } else {
+    let contador = 0;
+    let numeroPar = 2; // El primer número par es 2
+  
+    console.log(`Los primeros ${n} números pares son:`);
+  
+    while (contador < n) {
+      console.log(numeroPar);
+      numeroPar += 2; // Incrementamos en 2 para obtener el siguiente número par
+      contador++;
+    }
+  } 
+ 
+   
+   */
+    /////imprimir un numero del 1 a 10
+    // for (let i = 0; i <= 10; i++) {
+    //   console.log(i)
+    // }
+    ///////// Imprimir números pares del 2 al 20////////////
+    // for (let i = 0; i <= 20; i+=2) {
+    //   console.log(i)
+    // }
+ 
+
+  //   function m(a) {
+  //     for (let i = 1; i <= ; i++) {
+  //     // console.log("5 x " + i + " = " + 5 * i);
+  //     console.log(i)
+  //   }
+  //   }
+  //  let b = parseInt(prompt("namber"))
+  //   m(b)
+
+
+  
+
+  </script>
 </body>
 
 </html>
